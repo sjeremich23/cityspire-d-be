@@ -7,6 +7,18 @@ For steps on how to work with this repository [please see here](https://docs.lab
 # Project
 baseUrl: https://cityspire-d-be.herokuapp.com/
 
+This returns all locations(seeded with dummy data):
+https://cityspire-d-be.herokuapp.com/locations
+
+This pulls in all profiles:
+https://cityspire-d-be.herokuapp.com/profile or
+https://cityspire-d-be.herokuapp.com/profiles
+
+The above all respond to get requests
+https://cityspire-d-be.herokuapp.com/profile/:id:
+"id": "00ulthapbErVUwVJy4x6",
+"email": "llama001@maildrop.cc",
+
 You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
 ## Contributors
