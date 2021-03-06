@@ -75,7 +75,10 @@ app.use(function (err, req, res, next) {
   }
   if (res.locals.status) {
     res.status(res.locals.status || 500);
-    const errObject = { error: res.locals.error, message: res.locals.message };
+    const errObject = {
+      error: `Local Status Error: ${res.locals.error}`,
+      message: `Local Status: ${res.locals.message}`,
+    };
     return res.json(errObject);
   }
   next(err);
