@@ -5,6 +5,7 @@ For steps on how to work with this repository [please see here](https://docs.lab
 🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your first Pull-Request is merged. This is intended to be a guideline. Feel free to add your own flare to it.
 
 # Project
+baseUrl: https://cityspire-d-be.herokuapp.com/
 
 You can find the deployed project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
 
